@@ -1,0 +1,8 @@
+save = eval(input("Enter the monthly saving amount:"))
+m1 = 100 * (1 + 0.00417)
+m2 = (100 + m1) * (1 + 0.00417)
+m3 = (100 + m2) * (1 + 0.00417)
+m4 = (100 + m3) * (1 + 0.00417)
+m5 = (100 + m4) * (1 + 0.00417)
+m6 = (100 + m5) * (1 + 0.00417)
+print("After the sixth month,the account value is：%.2f" % (m6))
